@@ -1,11 +1,20 @@
-h1{
-	color: white;
-
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserat", "Avenir";
 }
 
 
-body{
-	background-color: #232323;
+h1{
+	line-height: 1.1;
+	padding: 20px 0;
+	text-align: center;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+
 }
 
 .square{
@@ -31,3 +40,28 @@ body{
 .selected{
 	background: blue;
 }
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
